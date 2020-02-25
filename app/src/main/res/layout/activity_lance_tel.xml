@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="27dp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="LEGO EV3 mindstorm\n\nMENU Télécomande"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/lance_btn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#096A09"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Ouverture Totale"
+            android:textAlignment="center"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/ajout_btn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Ouverture partielle"
+            android:background="#ED0000"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/param_btn"
+            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Fermeture totale"
+            android:background="#0F056B"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/log_btn"
+            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Logs / événements du portail"
+            android:background="#000000"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="27dp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="LEGO EV3 mindstorm\n\nGESTION ET PARAMETRES"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Modifier adresse MAC du portail"
+            />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="b7:c9:44:9a:8a:15"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:inputType="number"/>
+        <Button
+            android:id="@+id/modif_mac_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Valider modification"
+            android:background="#000000"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Liste des télécommandes du portail"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Télécommande Steven"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#7F7F7F"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="b1:84:3a:14:be:8f"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#BB0B0B"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Supprimer"
+            android:layout_marginLeft="20dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Télécommande Patricia"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="13dp"
+            android:textColor="#7F7F7F"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="74:28:37:f3:21:3d"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#BB0B0B"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Supprimer"
+            android:layout_marginLeft="20dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Télécommande Etienne"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#7F7F7F"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="74:3e:17:60:d9:81"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#BB0B0B"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Supprimer"
+            android:layout_marginLeft="18dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>
