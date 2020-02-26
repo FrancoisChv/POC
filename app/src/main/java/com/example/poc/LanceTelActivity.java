@@ -15,7 +15,6 @@ public class LanceTelActivity extends AppCompatActivity {
     private Button param;
     private Button ajout;
     private Button lance;
-    private Button log;
 
     private Vibrator vib;
 
@@ -29,7 +28,6 @@ public class LanceTelActivity extends AppCompatActivity {
         param = findViewById(R.id.param_btn);
         ajout = findViewById(R.id.ajout_btn);
         lance = findViewById(R.id.lance_btn);
-        log = findViewById(R.id.log_btn);
 
         vib = (Vibrator) getSystemService(MainActivity.VIBRATOR_SERVICE);
 

@@ -40,6 +40,64 @@
         android:orientation="vertical"
         android:gravity="center">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Nom de la télécommande\n"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#7F7F7F"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Télécommande STEVEN"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Adresse MAC de la télécommande\n"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#7F7F7F"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="b1:84:3a:14:be:8f"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
         <Button
             android:id="@+id/lance_btn"
             android:layout_width="300dp"
@@ -71,25 +129,6 @@
             android:background="#ED0000"
             android:textAlignment="center" />
 
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="vertical"
-        android:gravity="center">
-
-        <Button
-            android:id="@+id/log_btn"
-            android:layout_height="wrap_content"
-            android:layout_width="300dp"
-            android:layout_gravity="center"
-            android:textColor="@android:color/white"
-            android:fontFamily="sans-serif-smallcaps"
-            android:text="Logs / événements du portail"
-            android:background="#000000"
-            android:textAlignment="center" />
     </LinearLayout>
 
 </LinearLayout>
