@@ -29,7 +29,7 @@
             android:textColor="#000000"
             android:textAlignment="center"
             android:fontFamily="sans-serif-smallcaps"
-            android:text="LEGO EV3 mindstorm\n\nGESTION ET PARAMETRES"
+            android:text="LEGO EV3 mindstorm\nGESTION ET PARAMETRES"
             />
     </LinearLayout>
 
@@ -185,7 +185,6 @@
             android:layout_height="wrap_content"
             android:textSize="15dp"
             android:textColor="#000000"
-            android:textAlignment="center"
             android:fontFamily="sans-serif-smallcaps"
             android:text="Télécommande Etienne"
             />
@@ -211,6 +210,34 @@
             android:layout_marginLeft="18dp"
             android:textAlignment="center"
             android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="\nSUPPRESSION DU COMPTE\n"
+            />
+
+        <Button
+            android:layout_width="800dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Supprimier définitivement le compte"
+            android:background="#BB0B0B"
+            android:textAlignment="center" />
 
     </LinearLayout>
 

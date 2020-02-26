@@ -18,6 +18,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     private Button validate;
+    private Button inscription;
     private Vibrator vib;
 
     @Override
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         validate = findViewById(R.id.valide_btn);
+        inscription = findViewById(R.id.inscription_btn);
 
         vib=(Vibrator)getSystemService(MainActivity.VIBRATOR_SERVICE);
 
@@ -37,6 +39,15 @@ public class MainActivity extends AppCompatActivity {
                 vib.vibrate(10);
                 Intent MainActivity = new Intent(MainActivity.this, MenuActivity.class);
                     startActivity(MainActivity);
+            }
+        });
+
+        inscription.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                vib.vibrate(10);
+                Intent MainActivity = new Intent(MainActivity.this, InscriptionActivity.class);
+                startActivity(MainActivity);
             }
         });
     }
