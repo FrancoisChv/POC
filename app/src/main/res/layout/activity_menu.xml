@@ -81,6 +81,24 @@
         android:gravity="center">
 
         <Button
+            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="LOG / JOURNAUX DU PORTAIL"
+            android:background="#000000"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
             android:id="@+id/param_btn"
             android:layout_height="wrap_content"
             android:layout_width="300dp"

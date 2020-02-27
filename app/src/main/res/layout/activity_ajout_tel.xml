@@ -43,23 +43,32 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:textColor="#000000"
-            android:textAlignment="center"
             android:fontFamily="sans-serif-smallcaps"
             android:text="Adresse MAC de la télécommande\n"
-            />
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20dp" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="Ecrire ici adresse MAC de la télécommande"
+            android:hint="ici adresse MAC de la télécommande"
             android:fontFamily="sans-serif-smallcaps"
             android:textColor="#000000"
             android:textSize="15dp"
             android:layout_gravity="center"
             android:textAlignment="center"
             android:inputType="number"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="  Remplissage auto  "
+            android:background="#000000"
+            android:textAlignment="center" />
 
     </LinearLayout>
 
